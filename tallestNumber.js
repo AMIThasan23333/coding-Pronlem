@@ -20,8 +20,6 @@
 
  }
 
-   const heights = [167,155,178,190,247];
-
-    const tallest =maxInArray(heights)
-
+const heights = [167,155,178,190,247];
+const tallest =maxInArray(heights)
 console.log(tallest)
