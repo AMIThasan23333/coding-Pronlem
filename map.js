@@ -1,14 +1,14 @@
 
-const numbers = [2,4,6,7,8,20];
+const numbers = [1,2,3,4,6,7];
 
-const output =[];
+let output =[];
 
-for (const number of numbers){
 
-    const doubled = number * 2;
+  for(const number of numbers){
 
-    output.push(doubled);
+    const doubled = number *2;
 
-}
+     output.push(doubled);
+  }
 
-console.log(output)
+  console.log(output)
