@@ -1,20 +1,17 @@
 
-
 const fish = {
-
     name : 'King Fish',
     address :"Chadpur",
     color: "yellow",
 }
-
-  const phone = fish.name;
+  const nam = fish.name;
   const {address} = fish;
 
-  console.log(phone);
+  console.log(nam);
   console.log(address);
 
   const {age, name} = { name : "aLMAS", age : 46, profession : 'makeup Artist'};
-  
+
   console.log(age);
 
 
